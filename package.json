@@ -1,0 +1,34 @@
+{
+  "name": "modularized-quiz-app",
+  "version": "1.0.0",
+  "description": "A interactive quiz app using HTML, CSS and JS.",
+  "homepage": "https://github.com/parth-vadodaria-itp/Modularized-Quiz-App#readme",
+  "bugs": {
+    "url": "https://github.com/parth-vadodaria-itp/Modularized-Quiz-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parth-vadodaria-itp/Modularized-Quiz-App.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "jest": "^30.2.0"
+  },
+  "jest":{
+    "collectCoverage":true,
+    "coverageThreshold":{
+      "global":{
+        "statements":70,
+        "branches":70,
+        "functions":70,
+        "lines":70
+      }
+    }
+  }
+}
